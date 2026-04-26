@@ -2,84 +2,95 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>CornerShop — Quality Goods & Friendly Service</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Cornerstone Goods — Local Shop</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <meta name="description" content="CornerShop — Your friendly local shop for everyday essentials. Browse top-quality products, same-day pickup, and personalized service.">
 </head>
-<body class="bg-gray-50 antialiased">
-  <section class="max-w-4xl mx-auto my-16 bg-white rounded-2xl shadow-lg overflow-hidden ring-1 ring-gray-200">
-    <div class="flex items-center justify-between px-6 py-4 border-b border-gray-100">
-      <div class="flex items-center space-x-3">
-        <div class="w-12 h-12 bg-gradient-to-br from-yellow-500 to-yellow-400 rounded-lg flex items-center justify-center text-white font-bold text-lg">CS</div>
-        <div>
-          <h1 class="text-lg font-semibold text-gray-900">HanainShop</h1>
-          <p class="text-sm text-gray-500">Quality Goods • Friendly Service</p>
-        </div>
-      </div>
-      <nav class="hidden sm:flex items-center space-x-4 text-sm">
-        <a href="#" class="text-gray-700 hover:text-yellow-600">Home</a>
-        <a href="#" class="text-gray-700 hover:text-yellow-600">Shop</a>
-        <a href="#" class="text-gray-700 hover:text-yellow-600">About</a>
-        <a href="#" class="text-gray-700 hover:text-yellow-600">Contact</a>
-      </nav>
-    </div>
-
-    <div class="px-6 py-8 sm:flex sm:items-center sm:justify-between">
-      <div class="sm:w-1/2">
-        <h2 class="text-2xl sm:text-3xl font-extrabold text-gray-900 leading-tight">Your Neighborhood Shop — Essentials & More</h2>
-        <p class="mt-3 text-gray-600">Conveniently located, carefully curated. Find fresh groceries, household staples, and local favorites — all at fair prices with speedy service.</p>
-
-        <div class="mt-6 flex flex-wrap gap-3">
-          <a href="#" class="inline-flex items-center px-4 py-2 bg-yellow-600 hover:bg-yellow-700 text-white text-sm font-medium rounded-md shadow-sm">Browse Products</a>
-          <a href="#" class="inline-flex items-center px-4 py-2 border border-gray-200 text-sm rounded-md text-gray-700 hover:bg-gray-50">Visit Us</a>
-        </div>
-
-        <div class="mt-6 grid grid-cols-2 gap-3 text-sm text-gray-700">
-          <div class="flex items-start space-x-3">
-            <svg class="w-5 h-5 text-yellow-500 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7h18M3 12h18M3 17h18"/></svg>
+<body class="bg-gray-50 font-sans text-gray-800">
+  <section class="max-w-4xl mx-auto my-12 bg-white rounded-2xl shadow-lg overflow-hidden ring-1 ring-gray-100">
+    <div class="flex flex-col md:flex-row">
+      <!-- Left: Visual / Hero -->
+      <div class="md:w-1/2 bg-gradient-to-br from-green-50 to-white p-8 flex items-center justify-center">
+        <div class="w-full">
+          <div class="flex items-center gap-3 mb-6">
+            <div class="bg-green-600 text-white rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold">CG</div>
             <div>
-              <div class="font-semibold text-gray-900">Same-day pickup</div>
-              <div class="text-gray-500">Order online, pick up in store</div>
+              <h1 class="text-2xl font-semibold leading-tight">Cornerstone Goods</h1>
+              <p class="text-sm text-gray-500">Quality items & friendly service — your neighborhood shop</p>
             </div>
           </div>
-          <div class="flex items-start space-x-3">
-            <svg class="w-5 h-5 text-yellow-500 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h4l3 9 4-18 3 9h4"/></svg>
-            <div>
-              <div class="font-semibold text-gray-900">Top Quality</div>
-              <div class="text-gray-500">Fresh picks & trusted brands</div>
+
+          <div class="rounded-xl overflow-hidden shadow-inner">
+            <img src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?auto=format&fit=crop&w=800&q=60" alt="Shop display" class="w-full h-48 object-cover">
+          </div>
+
+          <div class="mt-5 flex gap-3">
+            <a href="#shop" class="inline-block px-4 py-2 bg-green-600 text-white rounded-lg font-medium shadow-sm hover:bg-green-700">Shop Now</a>
+            <a href="tel:+1234567890" class="inline-block px-4 py-2 border border-gray-200 rounded-lg text-gray-700 hover:bg-gray-50">Call Us</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Info & Features -->
+      <div class="md:w-1/2 p-8">
+        <div class="flex flex-col h-full justify-between">
+          <div>
+            <h2 class="text-lg font-semibold text-gray-900">Welcome to Cornerstone Goods</h2>
+            <p class="mt-3 text-sm text-gray-600">We offer a curated selection of everyday essentials, gifts, and specialty items sourced locally and responsibly. Stop by or order online for same-day pickup.</p>
+
+            <div class="mt-6 grid grid-cols-2 gap-3">
+              <div class="p-3 bg-gray-50 rounded-lg border border-gray-100">
+                <h3 class="text-sm font-medium text-gray-800">Popular Categories</h3>
+                <ul class="mt-2 text-xs text-gray-600 space-y-1">
+                  <li>Groceries & Fresh Produce</li>
+                  <li>Home Essentials</li>
+                  <li>Artisan Gifts</li>
+                </ul>
+              </div>
+
+              <div class="p-3 bg-gray-50 rounded-lg border border-gray-100">
+                <h3 class="text-sm font-medium text-gray-800">Why Shop With Us</h3>
+                <ul class="mt-2 text-xs text-gray-600 space-y-1">
+                  <li>Friendly local service</li>
+                  <li>Quality, curated selection</li>
+                  <li>Easy returns & support</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="mt-6 grid grid-cols-3 gap-3">
+              <div class="flex flex-col items-start">
+                <span class="text-green-600 font-bold text-lg">Free</span>
+                <span class="text-xs text-gray-500">Local Delivery</span>
+              </div>
+              <div class="flex flex-col items-start">
+                <span class="text-green-600 font-bold text-lg">30+</span>
+                <span class="text-xs text-gray-500">Local Brands</span>
+              </div>
+              <div class="flex flex-col items-start">
+                <span class="text-green-600 font-bold text-lg">4.8</span>
+                <span class="text-xs text-gray-500">Customer Rating</span>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="mt-6 flex items-center space-x-4 text-sm text-gray-600">
-          <div class="flex items-center space-x-2">
-            <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8m-9 10V8"/></svg>
-            <span>contact@cornershop.example</span>
+          <div class="mt-6 pt-4 border-t border-gray-100">
+            <div class="flex items-center justify-between">
+              <div>
+                <p class="text-sm font-medium">Visit Us</p>
+                <p class="text-xs text-gray-500">123 Market Lane, Yourtown</p>
+              </div>
+              <div class="text-right">
+                <p class="text-sm font-medium">Hours</p>
+                <p class="text-xs text-gray-500">Mon–Sat: 9am–8pm</p>
+              </div>
+            </div>
+
+            <div class="mt-4 flex items-center gap-3">
+              <a href="#directions" class="text-xs bg-white border border-gray-200 px-3 py-2 rounded-md hover:bg-gray-50">Get Directions</a>
+              <a href="mailto:hello@cornerstonegoods.example" class="text-xs bg-green-600 text-white px-3 py-2 rounded-md hover:bg-green-700">Email Us</a>
+            </div>
           </div>
-          <div class="flex items-center space-x-2">
-            <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2M19 7v10a2 2 0 01-2 2H7l-4 4V7a2 2 0 012-2h12a2 2 0 012 2z"/></svg>
-            <span>+1 (555) 123-4567</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="mt-6 sm:mt-0 sm:w-1/2 flex justify-center">
-        <div class="w-64 h-40 bg-gradient-to-br from-gray-100 to-white rounded-xl shadow-inner border border-gray-100 overflow-hidden">
-          <img src="https://images.unsplash.com/photo-1542831371-d531d36971e6?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=1e0b9f9b1e6f7b8a6a5b9f3f1e7d1f6a" alt="Shop display" class="w-full h-full object-cover">
-        </div>
-      </div>
-    </div>
-
-    <div class="px-6 pb-6 border-t border-gray-100">
-      <div class="flex items-center justify-between text-sm text-gray-600">
-        <div>
-          <span class="font-semibold text-gray-900">Hours:</span>
-          <span class="ml-2">Mon–Sat 8:00am — 8:00pm • Sun 9:00am — 5:00pm</span>
-        </div>
-        <div class="flex items-center space-x-3">
-          <a href="#" class="text-gray-500 hover:text-gray-700">Privacy</a>
-          <a href="#" class="text-gray-500 hover:text-gray-700">Terms</a>
         </div>
       </div>
     </div>
